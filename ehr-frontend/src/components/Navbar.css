@@ -1,0 +1,40 @@
+/* src/components/Navbar.css */
+nav {
+    background-color: #333;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    gap: 1.5rem; /* Adjusted spacing between links and buttons */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    white-space: nowrap; /* Prevents wrapping of link text */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav button {
+    background-color: #f04e23;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem; /* Adjusted padding for better button size */
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-left: 1.5rem; /* Adds spacing between the button and links */
+}
+
+nav button:hover {
+    background-color: #d7431c;
+}
